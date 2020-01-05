@@ -1,0 +1,12 @@
+{
+  "name": "check-deps-sync",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "description": "Tool for monorepos, fails if packages use different versions of dependencies",
+  "author": "Norman Meier <norman@berty.tech>",
+  "bin": {
+    "check-deps-sync": "./cli.js"
+  },
+  "repository": "git@github.com:n0izn0iz/check-deps-sync.git"
+}
