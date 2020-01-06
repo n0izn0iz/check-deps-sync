@@ -12,7 +12,8 @@ check-deps-sync path/to/your/packages/root
 ```
 
 ## Programmatic usage
-```js
+
+```javascript
 const checkDepsSync = require("check-deps-sync");
 
 // These are the defaults
