@@ -78,5 +78,5 @@ module.exports = (target, {type = DEFAULT_TYPE, printAll = true} = {}) => {
       }
     });
   });
-  throw new Error("Dependencies mismatch");
+  if (error) throw new Error("Dependencies mismatch");
 };
